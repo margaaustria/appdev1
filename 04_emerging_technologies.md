@@ -9,9 +9,8 @@
 </div>
 
 ## Purpose
-<span style="font-size: 3em; float: left; line-height: 1; padding-right: 4px;">A</span>
 
-rtificial intelligence is a machine’s ability to perform some cognitive functions we usually associate with human minds.
+Artificial intelligence is a machine’s ability to perform some cognitive functions we usually associate with human minds.
 
 AI is a machine’s ability to perform the cognitive functions we associate with human minds, such as perceiving, reasoning, learning, interacting with the environment, problem-solving, and even exercising creativity. You’ve probably interacted with AI even if you don’t realize it—voice assistants like Siri and Alexa are founded on AI technology, as are some customer service chatbots that pop up to help you navigate websites.
 
