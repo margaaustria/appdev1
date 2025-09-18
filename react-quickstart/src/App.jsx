@@ -1,23 +1,26 @@
 import { useState } from 'react'
 import './App.css'
 
-function AdminPanel() {
-  return <h1>Admin Panel</h1>
+const products = [
+  { title: 'Cabbage', isFruit: false, id: 1 },
+  { title: 'Garlic', isFruit: false, id: 2 },
+  { title: 'Apple', isFruit: true, id: 3 },
+];
+
+export default function ShoppingList() {
+  const listItems = products.map(product =>
+    <li
+      key={product.id}
+      style={{
+        color: product.isFruit ? 'magenta' : 'darkgreen'
+      }}
+    >
+      {product.title}
+    </li>
+  );
+
+  return (
+    <ul>{listItems}</ul>
+  );
 }
 
-function LoginForm() {
-  return <h1>Please log in</h1>
-}
-
-export default function App() {
-  const [isLoggedIn, setIsLoggedIn] = useState(false)
-
-  let content
-  if (isLoggedIn) {
-    content = <AdminPanel />
-  } else {
-    content = <LoginForm />
-  }
-
-  return <div>{content}</div>
-}
