@@ -21,6 +21,7 @@ function MyButton() {
     <div>
       <h1>Counters that update separately</h1>
       <MyButton />
+      <MyButton />
     </div>
   );
 }
