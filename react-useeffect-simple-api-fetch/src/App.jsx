@@ -1,9 +1,9 @@
-import UsersFetch from "./UsersFetch";
+import PostsFetchAsync from "./PostsFetchAsync";
 
 function App() {
   return (
     <div>
-      <UsersFetch />
+      <PostsFetchAsync />
     </div>
   );
 }
