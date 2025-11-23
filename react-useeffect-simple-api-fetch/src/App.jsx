@@ -1,9 +1,9 @@
-import PostsFetchAsync from "./PostsFetchAsync";
+import TodosFetchAxios from "./TodosFetchAxios";
 
 function App() {
   return (
     <div>
-      <PostsFetchAsync />
+      <TodosFetchAxios />
     </div>
   );
 }
